@@ -1,0 +1,17 @@
+==Frequent itemsets (min_sup=10%)
+[ (Staus = 200) ], 70%
+[ (IP = 10.128.2.1) ], 26%
+[ (IP = 10.131.0.1) ], 26%
+[ (IP = 10.130.2.1) ], 25%
+[ (Staus = 302) ], 21%
+[ (URL = GET /login.php HTTP/1.1) ], 20%
+[ (URL = GET /login.php HTTP/1.1) , (Staus = 200) ], 20%
+[ (IP = 10.131.0.1) , (Staus = 200) ], 18%
+[ (IP = 10.128.2.1) , (Staus = 200) ], 18%
+[ (IP = 10.130.2.1) , (Staus = 200) ], 18%
+[ (URL = GET /home.php HTTP/1.1) ], 16%
+[ (URL = GET /home.php HTTP/1.1) , (Staus = 302) ], 13%
+[ (IP = 10.129.2.1) ], 10%
+[ (IP = 10.131.2.1) ], 10%
+==High-confidence association rules (min_conf=90%)
+[(URL = GET /login.php HTTP/1.1)] => [(Staus = 200)] (confidence = 99%, support = 20%)
